@@ -31,14 +31,14 @@ st.set_page_config(
 # ──────────────────────────────────────────────────────────
 @st.cache_resource
 def get_mongo():
-    client = MongoClient(os.getenv("MONGODB_URI", "mongodb://localhost:27017"))
-    return client[os.getenv("MONGO_DB", "kayfa_crm")]["leads"]
+    client = MongoClient(os.getenv("MONGODB_URI", st.secrets["MONGODB_URI"]))
+    return client[os.getenv("MONGO_DB", st.secrets["MONGO_DB"])]["leads"]
 
 
 @st.cache_resource
 def get_traces_col():
-    client = MongoClient(os.getenv("MONGODB_URI", "mongodb://localhost:27017"))
-    return client[os.getenv("MONGO_DB", "kayfa_crm")]["message_traces"]
+    client = MongoClient(os.getenv("MONGODB_URI", st.secrets["MONGODB_URI"]))
+    return client[os.getenv("MONGO_DB", st.secrets["MONGO_DB"])]["message_traces"]
 
 
 # ──────────────────────────────────────────────────────────
@@ -162,8 +162,8 @@ if "nav_target" not in st.session_state:
 # ──────────────────────────────────────────────────────────
 # AUTH HELPERS
 # ──────────────────────────────────────────────────────────
-_ADMIN_USER = os.getenv("ADMIN_USERNAME", "admin")
-_ADMIN_PASS = os.getenv("ADMIN_PASSWORD", "kayfa2026")
+_ADMIN_USER = os.getenv("ADMIN_USERNAME", st.secrets["ADMIN_USERNAME"])
+_ADMIN_PASS = os.getenv("ADMIN_PASSWORD", st.secrets["ADMIN_PASSWORD"])
 
 def _verify_admin(username: str, password: str) -> bool:
     import hmac

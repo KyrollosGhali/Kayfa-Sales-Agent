@@ -25,7 +25,7 @@ from langgraph.graph import END, START, StateGraph
 from langgraph.graph.message import add_messages
 from pymongo import MongoClient
 from qdrant_client import QdrantClient
-
+import streamlit as st
 load_dotenv()
 
 # ──────────────────────────────────────────────
@@ -172,8 +172,8 @@ def _get_monitor_collection():
     """Returns the 'message_traces' collection in the same DB as CRM."""
     global _mongo_client
     if _mongo_client is None:
-        _mongo_client = MongoClient(os.getenv("MONGODB_URI", "mongodb://localhost:27017"))
-    db = _mongo_client[os.getenv("MONGO_DB", "kayfa_crm")]
+        _mongo_client = MongoClient(os.getenv("MONGODB_URI", st.secrets["MONGODB_URI"]))
+    db = _mongo_client[os.getenv("MONGO_DB", st.secrets["MONGO_DB"])]
     return db["message_traces"]
 
 
@@ -189,8 +189,8 @@ def save_trace(doc: dict):
 # LLM
 # ──────────────────────────────────────────────
 llm = ChatGroq(
-    model=os.getenv("GROQ_MODEL", "llama3-70b-8192"),
-    api_key=os.getenv("GROQ_API_KEY"),
+    model=os.getenv("GROQ_MODEL", st.secrets["GROQ_MODEL"]),
+    api_key=os.getenv("GROQ_API_KEY", st.secrets["GROQ_API_KEY"]),
     temperature=0.3,
 )
 
@@ -198,15 +198,15 @@ llm = ChatGroq(
 # Qdrant
 # ──────────────────────────────────────────────
 qdrant = QdrantClient(
-    url=os.getenv("QDRANT_URL"),
-    api_key=os.getenv("QDRANT_API_KEY"),
+    url=os.getenv("QDRANT_URL",st.secrets["QDRANT_URL"]),
+    api_key=os.getenv("QDRANT_API_KEY", st.secrets["QDRANT_API_KEY"]),
 )
 
 # ── Dense embedding via sentence-transformers (local) ──────────────────────
 from sentence_transformers import SentenceTransformer as _SentenceTransformer
 
-_embedder = _SentenceTransformer(os.getenv("embedding_model", "paraphrase-multilingual-MiniLM-L12-v2"),
-                                token=os.getenv("HF_TOKEN", None))
+_embedder = _SentenceTransformer(os.getenv("embedding_model", st.secrets["embedding_model"]),
+                                token=os.getenv("HF_TOKEN", st.secrets["HF_TOKEN"]))
 
 
 def _get_dense_vector(text: str) -> tuple[list[float], int]:
@@ -286,8 +286,8 @@ _mongo_client: MongoClient | None = None
 def _get_crm_collection():
     global _mongo_client
     if _mongo_client is None:
-        _mongo_client = MongoClient(os.getenv("MONGODB_URI", "mongodb://localhost:27017"))
-    db = _mongo_client[os.getenv("MONGO_DB", "kayfa_crm")]
+        _mongo_client = MongoClient(os.getenv("MONGODB_URI", st.secrets["MONGODB_URI"]))
+    db = _mongo_client[os.getenv("MONGO_DB", st.secrets["MONGO_DB"])]
     return db["leads"]
 
 

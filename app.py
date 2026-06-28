@@ -651,14 +651,14 @@ def page_analytics():
     st.plotly_chart(fig_weekly, use_container_width=True)
 
     # ── Summary table ──────────────────────────────────────
-    st.subheader("Summary by Intent" if not is_ar else "ملخص حسب النية")
-    summary = df.groupby("intent").agg(
-        Leads=("lead_score", "count"),
-        Avg_Score=("lead_score", "mean"),
-        Hot_Leads=("lead_stage", lambda x: x.isin(["hot", "enrolled"]).sum()),
-    ).round(1).reset_index()
-    summary.columns = ["Intent", "Leads", "Avg Score", "Hot Leads"]
-    st.dataframe(summary, use_container_width=True, hide_index=True)
+    # st.subheader("Summary by Intent" if not is_ar else "ملخص حسب النية")
+    # summary = df.groupby("intent").agg(
+    #     Leads=("lead_score", "count"),
+    #     Avg_Score=("lead_score", "mean"),
+    #     Hot_Leads=("lead_stage", lambda x: x.isin(["hot", "enrolled"]).sum()),
+    # ).round(1).reset_index()
+    # summary.columns = ["Intent", "Leads", "Avg Score", "Hot Leads"]
+    # st.dataframe(summary, use_container_width=True, hide_index=True)
 
 
 # ──────────────────────────────────────────────────────────
@@ -758,15 +758,15 @@ def page_cost_monitor():
         )
         st.plotly_chart(fig_tok, use_container_width=True)
 
-        st.subheader("Most expensive messages" if not is_ar else "أغلى الرسائل تكلفة")
-        top_msgs = df.nlargest(20, "cost_usd")[[
-            "timestamp", "user_message", "intent",
-            "input_tokens", "output_tokens", "embed_tokens", "cost_usd", "latency_ms",
-        ]].copy()
-        top_msgs["user_message"] = top_msgs["user_message"].astype(str).str[:80]
-        top_msgs["cost_usd"]     = top_msgs["cost_usd"].map("${:.6f}".format)
-        top_msgs["latency_ms"]   = top_msgs["latency_ms"].map("{:.0f} ms".format)
-        st.dataframe(top_msgs, use_container_width=True, hide_index=True)
+        # st.subheader("Most expensive messages" if not is_ar else "أغلى الرسائل تكلفة")
+        # top_msgs = df.nlargest(20, "cost_usd")[[
+        #     "timestamp", "user_message", "intent",
+        #     "input_tokens", "output_tokens", "embed_tokens", "cost_usd", "latency_ms",
+        # ]].copy()
+        # top_msgs["user_message"] = top_msgs["user_message"].astype(str).str[:80]
+        # top_msgs["cost_usd"]     = top_msgs["cost_usd"].map("${:.6f}".format)
+        # top_msgs["latency_ms"]   = top_msgs["latency_ms"].map("{:.0f} ms".format)
+        # st.dataframe(top_msgs, use_container_width=True, hide_index=True)
 
     # ── Tab 2 ─────────────────────────────────────────────
     with tab2:

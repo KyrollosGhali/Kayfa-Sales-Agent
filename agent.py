@@ -32,10 +32,9 @@ load_dotenv()
 # Pricing constants  (update when rates change)
 # ──────────────────────────────────────────────
 # Groq — llama3-70b-8192  (per 1M tokens)
-_GROQ_INPUT_PRICE_PER_M  = float(os.getenv("_GROQ_INPUT_PRICE_PER_M"))
-_GROQ_OUTPUT_PRICE_PER_M = float(os.getenv("_GROQ_OUTPUT_PRICE_PER_M"))
-# Sentence-transformers all-MiniLM-L6-v2 runs locally → $0 per token
-_EMBED_PRICE_PER_M = float(os.getenv("_EMBED_PRICE_PER_M"))
+_GROQ_INPUT_PRICE_PER_M = float(os.getenv("GROQ_INPUT_PRICE_PER_M", 0.05))
+_GROQ_OUTPUT_PRICE_PER_M = float(os.getenv("GROQ_OUTPUT_PRICE_PER_M", 0.08))
+_EMBED_PRICE_PER_M = float(os.getenv("EMBED_PRICE_PER_M", 0.0))
 
 def _calc_llm_cost(input_tokens: int, output_tokens: int) -> float:
     return (

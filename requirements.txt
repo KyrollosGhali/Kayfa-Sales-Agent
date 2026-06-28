@@ -7,3 +7,5 @@ langchain-groq
 pydantic
 pydantic-ai
 sentence-transformers
+plotly
+pymongo

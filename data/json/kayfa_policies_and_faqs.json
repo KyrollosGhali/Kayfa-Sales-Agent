@@ -1,0 +1,52 @@
+[
+    {
+        "level": 1,
+        "header": "Kayfa Policies and FAQs",
+        "content": "This document covers Kayfa's subscription, refund, cancellation policies, and frequently asked questions."
+    },
+    {
+        "level": 2,
+        "header": "Subscription Policy",
+        "content": "| Topic | Policy |\n|-------|--------|\n| **Term** | Annual basis only, auto-renews unless canceled |\n| **Payment** | Online via bank transaction or credit card |\n| **Pricing** | Subject to change; may vary by country/currency |\n| **Cancellation** | Cancel before next billing date; takes effect at cycle end |"
+    },
+    {
+        "level": 2,
+        "header": "Refund Policy",
+        "content": ""
+    },
+    {
+        "level": 3,
+        "header": "General",
+        "content": "No refunds once subscription fees have been withdrawn."
+    },
+    {
+        "level": 3,
+        "header": "Live/Onsite Courses",
+        "content": "| Timing | Refund |\n|--------|--------|\n| 7+ days before start | Full refund |\n| Less than 7 days before | 80% refund (20% admin fee) |\n| After program started | No refund |"
+    },
+    {
+        "level": 3,
+        "header": "Recorded Courses",
+        "content": "| Access Status | Refund |\n|---------------|--------|\n| No content accessed | Full refund |\n| Content accessed/downloaded | No refund |"
+    },
+    {
+        "level": 3,
+        "header": "Processing",
+        "content": "Refunds issued to original payment method within **7-30 working days**."
+    },
+    {
+        "level": 2,
+        "header": "Course Replacement",
+        "content": "Users can replace a course with one of **equal or lower value** before the course begins. Pay difference if replacement is higher value."
+    },
+    {
+        "level": 2,
+        "header": "Frequently Asked Questions",
+        "content": "| Question | Answer |\n|----------|--------|\n| **What is Kayfa?** | Educational platform offering high-quality courses to improve lives through learning and technology. |\n| **How do I access courses?** | On-demand via desktop/laptop. Access via confirmation email link or \"My Learning\" page after login. |\n| **Are there deadlines?** | No deadlines to begin or complete courses. |\n| **Can I preview courses?** | Yes, some courses offer free previews. |\n| **Where can I get help?** | Email support@kayfa.io |"
+    },
+    {
+        "level": 2,
+        "header": "Source",
+        "content": "- https://kayfa.io/faqs/\n- https://kayfa.io/terms-conditions/"
+    }
+]

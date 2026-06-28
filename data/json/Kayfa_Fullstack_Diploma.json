@@ -1,0 +1,52 @@
+[
+    {
+        "level": 1,
+        "header": "Fullstack Development Diploma",
+        "content": ""
+    },
+    {
+        "level": 3,
+        "header": "Kayfa Academy — Accredited Professional Program",
+        "content": "A hands-on, project-first program that takes you from zero to job-ready in full-stack web\ndevelopment. You build complete applications, deploy them live, and graduate with a portfolio\nthat's ready for jobs and freelancing.\n\n| | |\n|---|---|\n| **Duration** | 6 months |\n| **Sessions** | 55 live sessions (2–3 hours each) |\n| **Format** | Interactive live sessions — also recorded, available to you for 1 year |\n| **Level** | Junior Full Stack Developer |\n| **Outcomes** | Live portfolio · Graduation project · CV guidance · A personal Sub Domain per student |"
+    },
+    {
+        "level": 2,
+        "header": "Prerequisites",
+        "content": "- No prior programming experience required — the diploma starts from scratch.\n- Basic computer skills, curiosity, and a problem-solving mindset.\n- Recommended (optional): basic English for reading technical documentation.\n- A laptop that runs VS Code and a browser smoothly (8 GB RAM+), and a stable internet connection."
+    },
+    {
+        "level": 2,
+        "header": "What You'll Learn",
+        "content": "**Frontend:** HTML5, CSS3, Responsive Design, Bootstrap, Tailwind CSS, Git & GitHub, JavaScript\n(DOM/BOM), Async & APIs, TypeScript, React, React Hook Form & Zod, Redux Toolkit, React Query,\nshadcn/ui, Next.js.\n\n**Backend:** Node.js, Express.js, REST APIs, MVC, Middleware, MongoDB & Mongoose, MySQL &\nSequelize, Joi Validation, JWT Auth, Roles & Authorization, Sessions & Cookies, Social Login,\nFile Uploads, Emails, Cron Jobs, PDF & QR, Socket.IO, Redis Caching, Docker, Deployment,\nSSL & Sub Domain."
+    },
+    {
+        "level": 2,
+        "header": "Curriculum Structure",
+        "content": "1. **Frontend Foundations** — Sessions 1–12 — HTML, CSS, Bootstrap, Tailwind, Git/GitHub, first live deploy.\n2. **JavaScript & TypeScript** — Sessions 13–22 — logic, DOM, APIs, async, ES6+, OOP, TypeScript.\n3. **React Ecosystem** — Sessions 23–31 — components, hooks, forms, routing, Redux Toolkit, React Query, shadcn/ui.\n4. **Next.js** — Sessions 32–35 — routing, rendering strategies, API routes, auth concepts, deployment.\n5. **Backend (Node.js & Express)** — Sessions 36–50 — REST APIs, databases, auth, advanced features, deployment, graduation project.\n6. **Non-Technical Phase** — Sessions 51–55 — English for developers + career development (portfolio, CV, interviews, freelancing)."
+    },
+    {
+        "level": 2,
+        "header": "Major Projects",
+        "content": "- **S07** — Responsive HTML + CSS site (first portfolio piece)\n- **S10** — Bootstrap landing page (live)\n- **S12** — Full Tailwind website (live)\n- **S20** — JavaScript app (live)\n- **S31** — React app (live)\n- **S35** — Next.js project (live)\n- **S50** — Full-stack graduation project + portfolio showcase"
+    },
+    {
+        "level": 2,
+        "header": "Outcomes & Careers",
+        "content": "By the end you'll have several live projects, a React app, a Next.js project, deployed backend\nAPIs, and a full-stack graduation project linked to a personal Sub Domain — a portfolio ready\nfor jobs, freelancing, and technical interviews.\n\n**Eligible roles:** Junior Full Stack Developer · Frontend Developer · Backend Developer ·\nReact/Next.js Developer · freelancing (Upwork, Mostaql)."
+    },
+    {
+        "level": 2,
+        "header": "Why Kayfa",
+        "content": "- **Interactive & recorded live sessions** — live Q&A and real-time feedback; recordings stay available for 1 year to review anytime.\n- **Expert instructor + 4 mentors** who review your code and tasks until they're right.\n- **Beginner-friendly path** from zero to final projects.\n- **Real portfolio projects** deployed live on your own Sub Domain.\n- **Job-focused outcomes** — practical skills, portfolio, CV guidance, and freelance readiness."
+    },
+    {
+        "level": 2,
+        "header": "Certificate",
+        "content": "Graduates receive an accredited completion certificate from Kayfa Academy."
+    },
+    {
+        "level": 2,
+        "header": "Contact",
+        "content": "**Phone:** 01032422466 · 00963983378448\n**Email:** info@kayfa.io"
+    }
+]

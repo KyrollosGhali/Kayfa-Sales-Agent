@@ -1,0 +1,27 @@
+[
+    {
+        "level": 1,
+        "header": "Kayfa Privacy Policy",
+        "content": "This document summarizes the key aspects of Kayfa's Privacy Policy, focusing on data collection, usage, and user rights, optimized for AI agent retrieval."
+    },
+    {
+        "level": 2,
+        "header": "Data Controller and Purpose",
+        "content": "Kayfa is the **data controller**, responsible for deciding how personal information is collected, stored, and used [1]. The purpose of data collection is to provide services, communicate with users, troubleshoot issues, secure against fraud, improve services, analyze usage, serve personalized advertising, and comply with legal requirements [1]."
+    },
+    {
+        "level": 2,
+        "header": "Information Collected",
+        "content": "The following personal data is collected upon account registration and use of services [1]:\n\n*   **Identity and Contact:** Name, Email Address, Year of Birth, Gender, Country of Residence/Origin, Phone Numbers, Social Media Accounts (if used for login).\n*   **Usage Data:** Records of visits to Kayfa and engagement with educational content (pages, videos, assessments, posts, comments, and other interactions).\n*   **Technical Data:** Information collected through automated means like cookies and web beacons to enable site functionality, remember preferences, and secure the site [1]."
+    },
+    {
+        "level": 2,
+        "header": "User Rights",
+        "content": "Users have several rights regarding their personal data [1]:\n\n*   **Right to Access:** Request access to personal data held and information about its processing.\n*   **Right to Rectification:** Request correction or update of inaccurate or incomplete information.\n*   **Right to Erasure:** Request deletion of personal data in certain circumstances.\n*   **Right to Restrict Processing:** Request restriction of processing under certain conditions.\n*   **Right to Object:** Object to the processing of personal data (e.g., for direct marketing).\n\nTo exercise these rights, users should contact Kayfa at **info@kayfa.io** [1]."
+    },
+    {
+        "level": 2,
+        "header": "Source",
+        "content": "[1] https://kayfa.io/privacy/ \"Privacy Policy | Kayfa Platform\""
+    }
+]

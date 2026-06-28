@@ -1,0 +1,22 @@
+[
+    {
+        "level": 1,
+        "header": "🛡️ Product: SOC Track by Kayfa",
+        "content": "**Pitch:** A specialized 5-month hybrid program designed to forge battle-ready SOC Analysts through intense hands-on training with industry-standard SIEM tools and real-world attack simulations."
+    },
+    {
+        "level": 2,
+        "header": "🔐 The Technical Stack (Curriculum Highlights)",
+        "content": "* **Core Infrastructure:** Mastery of Network Security (OSI, Subnetting, Firewalls) and OS Administration (Linux CLI & Windows Active Directory/GPO).\n* **SIEM Mastery:** Deep dive into the market leaders: **Splunk** (SPL queries, Dashboards) and **IBM QRadar** (AQL, Offense Management).\n* **Defensive Operations:** Comprehensive training on the Cyber Kill Chain, Incident Response lifecycles, and proactive **Threat Hunting**.\n* **Forensics & Analysis:** Introduction to Digital Forensics (Memory/Disk analysis) and handling Chain of Custody.\n* **War Room Experience:** Students tackle real scenarios like Ransomware analysis and \"Boss of the SOC\" (BOTS) challenges in 2 major Capstone Projects."
+    },
+    {
+        "level": 2,
+        "header": "💼 Career & Professional Growth",
+        "content": "* **Global Readiness:** tailored **English for Business** training to prepare for international security roles.\n* **Career Launchpad:** A dedicated \"Professional Skills\" module covers CV optimization, technical interview prep, and career pathing.\n* **Soft Skills:** Focus on communication and reporting—critical for explaining breaches to stakeholders."
+    },
+    {
+        "level": 2,
+        "header": "🏆 Authority & Trust Signals",
+        "content": "* **Triple Certification:** Graduates receive a Kayfa certificate, with options for international accreditation from the **University of Delaware** and **Leeds Academy**.\n* **Expert Mentorship:** Learn from practitioners like Dr. Abdelrahman and top industry veterans.\n* **Proven Track Record:** Joined by 15,000+ learners; curriculum aligned with global market demands.\n\n**Closing Value:** \"From monitoring logs to hunting threats—this track builds the exact skill set required to defend modern enterprises.\""
+    }
+]

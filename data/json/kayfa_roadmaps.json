@@ -1,0 +1,553 @@
+[
+  {
+    "id": "kayfa_data_science_track",
+    "name": "Data Science Track",
+    "summary": "A comprehensive 12-course track covering Python, Excel, SQL Server, Power BI, business statistics, machine learning, and capstone projects to build job-ready data science skills.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "data_science"
+    ],
+    "skills": [
+      "Python Programming",
+      "Data Cleaning",
+      "Data Scraping",
+      "Data Analysis",
+      "Business Statistics",
+      "Power BI Dashboards",
+      "SQL Server",
+      "Machine Learning",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Neural Networks",
+      "Regression",
+      "Advanced Excel",
+      "Pivot Tables",
+      "DAX",
+      "Power Query"
+    ],
+    "tools": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Power BI",
+      "MS SQL Server",
+      "Excel",
+      "Jupyter Notebook"
+    ],
+    "duration": "75 hours 31 minutes",
+    "courses_count": 12,
+    "link": "https://kayfa.io/tracks/data-science",
+    "courses_list": [
+      "kayfa_intro_data_science",
+      "kayfa_python_basics_ds",
+      "kayfa_advanced_excel_ds",
+      "kayfa_business_statistics",
+      "kayfa_ms_sql_server_programming",
+      "kayfa_data_visualization_power_bi",
+      "kayfa_data_analysis_python_ds",
+      "kayfa_machine_learning_ds",
+      "kayfa_all_about_ds_live",
+      "kayfa_ds_career_development",
+      "kayfa_ds_career_center",
+      "kayfa_ds_final_project"
+    ]
+  },
+  {
+    "id": "kayfa_soc_track",
+    "name": "Security Operations Center (SOC) Track",
+    "summary": "A 9-course cybersecurity track covering network security, Linux, Windows Active Directory, Splunk SIEM, IBM QRadar, incident response, and threat hunting for aspiring SOC analysts.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "cybersecurity",
+      "soc"
+    ],
+    "skills": [
+      "Network Security",
+      "Linux Administration",
+      "Windows Active Directory",
+      "SIEM Operations",
+      "Splunk SPL",
+      "IBM QRadar AQL",
+      "Incident Response",
+      "Threat Hunting",
+      "Digital Forensics",
+      "Cyber Kill Chain",
+      "Offense Management"
+    ],
+    "tools": [
+      "Splunk",
+      "IBM QRadar",
+      "Linux CLI",
+      "Windows Active Directory",
+      "Wireshark"
+    ],
+    "duration": "44 hours 52 minutes",
+    "courses_count": 9,
+    "link": "https://kayfa.io/tracks/soc",
+    "courses_list": [
+      "kayfa_network_security_fundamentals",
+      "kayfa_windows_active_directory",
+      "kayfa_linux_fundamentals",
+      "kayfa_intro_soc",
+      "kayfa_splunk_siem",
+      "kayfa_splunk_siem_case_studies",
+      "kayfa_qradar",
+      "kayfa_live_session_soc",
+      "kayfa_ds_career_development"
+    ]
+  },
+  {
+    "id": "kayfa_web_development_track",
+    "name": "Web Development Track",
+    "summary": "A 9-course full-stack web development track covering HTML, CSS, JavaScript, TypeScript, C# OOP, SQL Server, and .NET database fundamentals.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "web_development",
+      "fullstack"
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "ECMAScript",
+      "C# OOP",
+      "SQL Server",
+      "Database Design",
+      ".NET Development"
+    ],
+    "tools": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "C#",
+      "MS SQL Server",
+      ".NET Framework"
+    ],
+    "duration": "45 hours 45 minutes",
+    "courses_count": 9,
+    "link": "https://kayfa.io/tracks/full-stack-development",
+    "courses_list": [
+      "kayfa_html",
+      "kayfa_css",
+      "kayfa_intro_javascript",
+      "kayfa_ecmascript_modern_js",
+      "kayfa_intro_typescript",
+      "kayfa_intro_oop_csharp",
+      "kayfa_ms_sql_server_programming",
+      "kayfa_db_fundamentals_dotnet",
+      "kayfa_ds_career_development"
+    ]
+  },
+  {
+    "id": "kayfa_data_analysis_track",
+    "name": "Data Analysis Track",
+    "summary": "An 8-course data analysis track covering Python, Power BI, SQL Server, Excel, and hands-on data analysis projects for aspiring data analysts.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "data_analysis"
+    ],
+    "skills": [
+      "Python Programming",
+      "Data Visualization",
+      "Power BI",
+      "SQL Queries",
+      "Data Cleaning",
+      "Exploratory Data Analysis",
+      "Business Statistics"
+    ],
+    "tools": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Power BI",
+      "MS SQL Server",
+      "Excel"
+    ],
+    "duration": "38 hours 54 minutes",
+    "courses_count": 8,
+    "link": "https://kayfa.io/tracks/data-analysis",
+    "courses_list": [
+      "kayfa_intro_data_analysis",
+      "kayfa_python_basics_da",
+      "kayfa_data_visualization_power_bi",
+      "kayfa_ms_sql_server_programming",
+      "kayfa_data_analysis_python",
+      "kayfa_advanced_excel_ds",
+      "kayfa_ds_career_development",
+      "kayfa_da_final_project"
+    ]
+  },
+  {
+    "id": "kayfa_frontend_track",
+    "name": "Frontend Track",
+    "summary": "A 6-course frontend development track covering HTML, CSS, JavaScript, ECMAScript modern features, and TypeScript for building responsive web interfaces.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "web_development",
+      "frontend"
+    ],
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "ECMAScript",
+      "Responsive Design",
+      "DOM Manipulation"
+    ],
+    "tools": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "duration": "28 hours 12 minutes",
+    "courses_count": 6,
+    "link": "https://kayfa.io/tracks/frontend",
+    "courses_list": [
+      "kayfa_html",
+      "kayfa_css",
+      "kayfa_intro_javascript",
+      "kayfa_ecmascript_modern_js",
+      "kayfa_intro_typescript",
+      "kayfa_ds_career_development"
+    ]
+  },
+  {
+    "id": "kayfa_backend_track",
+    "name": "Backend Track",
+    "summary": "A 6-course backend development track covering JavaScript, TypeScript, C# OOP, SQL Server, and .NET database fundamentals for server-side development.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "web_development",
+      "backend"
+    ],
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "ECMAScript",
+      "C# OOP",
+      "SQL Server",
+      "Database Design",
+      ".NET Backend Development"
+    ],
+    "tools": [
+      "JavaScript",
+      "TypeScript",
+      "C#",
+      "MS SQL Server",
+      ".NET Framework"
+    ],
+    "duration": "23 hours 34 minutes",
+    "courses_count": 6,
+    "link": "https://kayfa.io/tracks/backend",
+    "courses_list": [
+      "kayfa_intro_javascript",
+      "kayfa_ecmascript_modern_js",
+      "kayfa_intro_typescript",
+      "kayfa_intro_oop_csharp",
+      "kayfa_ms_sql_server_programming",
+      "kayfa_db_fundamentals_dotnet"
+    ]
+  },
+  {
+    "id": "kayfa_ai_fundamentals_track",
+    "name": "Artificial Intelligence Fundamentals Track",
+    "summary": "A 3-course introductory AI track covering how AI and ChatGPT work, AI tools usage, and Python programming basics for AI development.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "artificial_intelligence"
+    ],
+    "skills": [
+      "AI Concepts",
+      "ChatGPT Understanding",
+      "Python for AI",
+      "AI Tools Usage",
+      "Prompt Engineering"
+    ],
+    "tools": [
+      "Python",
+      "ChatGPT",
+      "AI Tools"
+    ],
+    "duration": "8 hours 44 minutes",
+    "courses_count": 3,
+    "link": "https://kayfa.io/tracks/ai-engineering",
+    "courses_list": [
+      "kayfa_how_ai_chatgpt_work",
+      "kayfa_ai_tools",
+      "kayfa_python_basics_ai"
+    ]
+  },
+  {
+    "id": "kayfa_graphics_motion_track",
+    "name": "Fundamentals of Graphics and Motion Track",
+    "summary": "A 2-course creative track covering graphic design fundamentals (color theory, typography, layout) and motion graphics animation principles.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "creative_arts",
+      "graphic_design",
+      "motion_graphics"
+    ],
+    "skills": [
+      "Graphic Design",
+      "Motion Graphics",
+      "Visual Design",
+      "Animation Principles",
+      "Color Theory",
+      "Typography"
+    ],
+    "tools": [
+      "Adobe After Effects",
+      "Adobe Illustrator",
+      "Adobe Photoshop"
+    ],
+    "duration": "6 hours 14 minutes",
+    "courses_count": 2,
+    "link": "https://kayfa.io/tracks/fundamentals-of-graphics-and-motion",
+    "courses_list": [
+      "kayfa_fundamentals_graphic_design",
+      "kayfa_fundamentals_motion_graphics"
+    ]
+  },
+  {
+    "id": "kayfa_video_editing_track",
+    "name": "Video Editing Track",
+    "summary": "A single-course track on video editing using CapCut, covering cutting, transitions, effects, text overlays, and exporting professional videos.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "creative_arts",
+      "video_editing"
+    ],
+    "skills": [
+      "Video Editing",
+      "Transitions",
+      "Effects",
+      "Color Grading",
+      "Audio Editing"
+    ],
+    "tools": [
+      "CapCut"
+    ],
+    "duration": "6 hours 8 minutes",
+    "courses_count": 1,
+    "link": "https://kayfa.io/tracks/Cap-Cut",
+    "courses_list": [
+      "kayfa_capcut_video_editing"
+    ]
+  },
+  {
+    "id": "kayfa_crash_courses_track",
+    "name": "Crash Courses Track",
+    "summary": "A collection of short crash courses covering marketing fundamentals, career planning, and professional development essentials.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "general",
+      "career_development"
+    ],
+    "skills": [
+      "Marketing Fundamentals",
+      "Career Planning",
+      "Professional Development"
+    ],
+    "tools": [],
+    "duration": "2 hours 7 minutes",
+    "courses_count": 3,
+    "link": "https://kayfa.io/tracks/crash-courses",
+    "courses_list": [
+      "kayfa_intro_marketing",
+      "kayfa_career_planning",
+      "kayfa_ds_career_development"
+    ]
+  },
+  {
+    "id": "kayfa_ai_diploma",
+    "name": "AI Track Diploma (Bootcamp)",
+    "summary": "An intensive 5-month AI bootcamp covering generative AI, prompt engineering, RAG, AI agents, deep learning, computer vision, NLP, and MLOps with Docker and CI/CD pipelines.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "artificial_intelligence",
+      "deep_learning",
+      "machine_learning",
+      "mlops"
+    ],
+    "skills": [
+      "Generative AI",
+      "GANs",
+      "VAEs",
+      "Prompt Engineering",
+      "RAG",
+      "AI Agents",
+      "Reinforcement Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "CNNs",
+      "NLP",
+      "Transformers",
+      "BERT",
+      "MLOps",
+      "Docker",
+      "CI/CD",
+      "MLflow",
+      "DVC",
+      "Business English",
+      "CV Writing",
+      "Interview Preparation"
+    ],
+    "tools": [
+      "Python",
+      "Docker",
+      "MLflow",
+      "DVC",
+      "TensorFlow",
+      "PyTorch",
+      "Transformers"
+    ],
+    "duration": "5 months",
+    "courses_count": 10,
+    "link": "https://kayfa.io/path/ai-engineering",
+    "courses_list": [
+      "kayfa_how_ai_chatgpt_work",
+      "kayfa_ai_tools",
+      "kayfa_python_basics_ai",
+      "kayfa_machine_learning_ds",
+      "kayfa_ds_career_development",
+      "kayfa_ds_career_center",
+      "kayfa_ds_final_project",
+      "kayfa_career_planning",
+      "kayfa_python_basics_ds",
+      "kayfa_business_statistics"
+    ]
+  },
+  {
+    "id": "kayfa_data_science_diploma",
+    "name": "Data Science Track Diploma (Bootcamp)",
+    "summary": "A rigorous 5-month data science bootcamp blending Python, Power BI, SQL Server, advanced Excel, business statistics, and machine learning with capstone projects and career preparation.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "data_science",
+      "data_analysis",
+      "machine_learning"
+    ],
+    "skills": [
+      "Python Programming",
+      "Data Cleaning",
+      "Data Scraping",
+      "Pandas",
+      "NumPy",
+      "OOP",
+      "Power BI Dashboards",
+      "SQL Server",
+      "Stored Procedures",
+      "Advanced Excel",
+      "Pivot Tables",
+      "DAX",
+      "Power Query",
+      "Business Statistics",
+      "Machine Learning",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Neural Networks",
+      "Regression",
+      "Business English",
+      "CV Writing",
+      "Interview Preparation"
+    ],
+    "tools": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Power BI",
+      "MS SQL Server",
+      "Excel",
+      "Jupyter Notebook"
+    ],
+    "duration": "5 months",
+    "courses_count": 12,
+    "link": "https://kayfa.io/path/data-science",
+    "courses_list": [
+      "kayfa_intro_data_science",
+      "kayfa_python_basics_ds",
+      "kayfa_advanced_excel_ds",
+      "kayfa_business_statistics",
+      "kayfa_ms_sql_server_programming",
+      "kayfa_data_visualization_power_bi",
+      "kayfa_data_analysis_python_ds",
+      "kayfa_machine_learning_ds",
+      "kayfa_all_about_ds_live",
+      "kayfa_ds_career_development",
+      "kayfa_ds_career_center",
+      "kayfa_ds_final_project"
+    ]
+  },
+  {
+    "id": "kayfa_soc_diploma",
+    "name": "SOC Track Diploma (Bootcamp)",
+    "summary": "A specialized 5-month SOC bootcamp covering network security, Linux, Windows AD, Splunk, IBM QRadar, incident response, threat hunting, and digital forensics with real-world attack simulations.",
+    "provider": "kayfa",
+    "host": "kayfa",
+    "track": [
+      "cybersecurity",
+      "soc"
+    ],
+    "skills": [
+      "Network Security",
+      "OSI Model",
+      "Subnetting",
+      "Firewalls",
+      "Linux CLI",
+      "Windows Active Directory",
+      "GPO",
+      "Splunk SPL",
+      "Splunk Dashboards",
+      "IBM QRadar AQL",
+      "Offense Management",
+      "Cyber Kill Chain",
+      "Incident Response",
+      "Threat Hunting",
+      "Digital Forensics",
+      "Memory Analysis",
+      "Disk Analysis",
+      "Chain of Custody",
+      "Business English",
+      "CV Writing",
+      "Interview Preparation"
+    ],
+    "tools": [
+      "Splunk",
+      "IBM QRadar",
+      "Linux CLI",
+      "Windows Active Directory",
+      "Wireshark",
+      "Volatility"
+    ],
+    "duration": "5 months",
+    "courses_count": 9,
+    "link": "https://kayfa.io/path/soc",
+    "courses_list": [
+      "kayfa_network_security_fundamentals",
+      "kayfa_windows_active_directory",
+      "kayfa_linux_fundamentals",
+      "kayfa_intro_soc",
+      "kayfa_splunk_siem",
+      "kayfa_splunk_siem_case_studies",
+      "kayfa_qradar",
+      "kayfa_live_session_soc",
+      "kayfa_ds_career_development"
+    ]
+  }
+]

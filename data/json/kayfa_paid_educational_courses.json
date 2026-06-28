@@ -1,0 +1,100 @@
+[
+    {
+        "Course_Name": "Business Statistics",
+        "Videos": 137,
+        "Hours": 12.38,
+        "Price_USD": 65.0,
+        "Instructor_Focus": "Prof. Mostafa Elhosseini"
+    },
+    {
+        "Course_Name": "MS SQL Server Programming",
+        "Videos": 87,
+        "Hours": 10.3,
+        "Price_USD": 35.0,
+        "Instructor_Focus": "Hagar Ibrahiem"
+    },
+    {
+        "Course_Name": "Data Visualization by Power Bi",
+        "Videos": 79,
+        "Hours": 6.13,
+        "Price_USD": 30.0,
+        "Instructor_Focus": "Eman Raslan"
+    },
+    {
+        "Course_Name": "Network and Security Fundamentals",
+        "Videos": 94,
+        "Hours": 4.48,
+        "Price_USD": 30.0,
+        "Instructor_Focus": "Ahmed Shalaby"
+    },
+    {
+        "Course_Name": "HTML",
+        "Videos": 42,
+        "Hours": 5.12,
+        "Price_USD": 30.0,
+        "Instructor_Focus": "Mohamed Ali"
+    },
+    {
+        "Course_Name": "Fundamentals of Graphic Design",
+        "Videos": 46,
+        "Hours": 2.35,
+        "Price_USD": 30.0,
+        "Instructor_Focus": "Heba Hashem Abdeen"
+    },
+    {
+        "Course_Name": "Microsoft Windows Active Directory",
+        "Videos": 74,
+        "Hours": 6.21,
+        "Price_USD": 35.0,
+        "Instructor_Focus": "Abdelbaky Shehata"
+    },
+    {
+        "Course_Name": "Linux Fundamentals",
+        "Videos": 32,
+        "Hours": 5.19,
+        "Price_USD": 40.0,
+        "Instructor_Focus": "Yehia kandeel"
+    },
+    {
+        "Course_Name": "Splunk SIEM Case Studies",
+        "Videos": 19,
+        "Hours": 2.36,
+        "Price_USD": 50.0,
+        "Instructor_Focus": "Motasem Hamdan"
+    },
+    {
+        "Course_Name": "How AI & Chat GPT Work",
+        "Videos": 29,
+        "Hours": 2.1,
+        "Price_USD": 20.0,
+        "Instructor_Focus": "Mohammad Thabet"
+    },
+    {
+        "Course_Name": "Introduction to JavaScript",
+        "Videos": 22,
+        "Hours": 2.35,
+        "Price_USD": 20.0,
+        "Instructor_Focus": "Mohamed Ali"
+    },
+    {
+        "Course_Name": "Introduction to TypeScript",
+        "Videos": 28,
+        "Hours": 2.33,
+        "Price_USD": 20.0,
+        "Instructor_Focus": "Ahmed Saber"
+    },
+    {
+        "Course_Name": "Introduction to Marketing",
+        "Videos": 12,
+        "Hours": 0.57,
+        "Price_USD": 15.0,
+        "Instructor_Focus": "Walid Saed"
+    },
+    {
+        "Course_Name": "Career Planning",
+        "Videos": 5,
+        "Hours": 0.18,
+        "Price_USD": 15.0,
+        "Instructor_Focus": "Mariam Elgaby"
+    }
+]

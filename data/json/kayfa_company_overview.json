@@ -1,0 +1,37 @@
+[
+    {
+        "level": 1,
+        "header": "Kayfa Company Overview",
+        "content": "This document provides Kayfa's company identity, mission, key features, and contact information for AI agent retrieval."
+    },
+    {
+        "level": 2,
+        "header": "Company Identity",
+        "content": "Kayfa is a **leading Arabic educational platform** developed by **Kayfa Digital Solutions**, accredited by the **International Accreditation Organization (IAO)**."
+    },
+    {
+        "level": 2,
+        "header": "Mission and Audience",
+        "content": "**Mission:** Improve lives through learning and technology by equipping users with skills for in-demand digital jobs.\n\n**Target Audience:**\n- Students and recent graduates\n- Working professionals and freelancers\n- Anyone interested in IT and digital fields"
+    },
+    {
+        "level": 2,
+        "header": "Key Features",
+        "content": "| Feature | Description |\n|---------|-------------|\n| **Learning Model** | Self-paced, on-demand courses with no deadlines |\n| **Certification** | Employer-recognized certificates upon completion |\n| **NGen Program** | Technology education for students aged 8-18 |"
+    },
+    {
+        "level": 2,
+        "header": "Contact Points",
+        "content": "| Type | Detail |\n|------|--------|\n| **General Email** | info@kayfa.io |\n| **Support Email** | support@kayfa.io |\n| **U.A.E Phone** | +971 55 387 7671 |\n| **Egypt Phone** | +201 05 502 3774 |\n| **Syria Phone** | +963 98 337 8448 |"
+    },
+    {
+        "level": 2,
+        "header": "Physical Locations",
+        "content": "- **U.A.E (HQ):** Business Center 1, M Floor, The Meydan Hotel, Nad Al Sheba, Dubai\n- **Egypt:** 15 Al Lasilki, Infront of Maadi Technology Park, Maadi, Cairo\n- **Syria:** Next to Day by Day Mall, West Al Mashtal, Hama"
+    },
+    {
+        "level": 2,
+        "header": "Sources",
+        "content": "- https://kayfa.io/\n- https://kayfa.io/about-us/\n- https://kayfa.io/contact-us/\n- https://kayfa.io/faqs/\n- https://kayfa.io/terms-conditions/"
+    }
+]

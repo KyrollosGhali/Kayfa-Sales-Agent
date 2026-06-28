@@ -1,0 +1,9 @@
+python-dotenv
+qdrant-client
+langchain
+langgraph
+langchain-community
+langchain-groq
+pydantic
+pydantic-ai
+sentence-transformers

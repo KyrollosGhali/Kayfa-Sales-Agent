@@ -1,0 +1,82 @@
+[
+    {
+        "track_name": "Data Science",
+        "videos": 736,
+        "hours": 75.31,
+        "courses": 12,
+        "price_usd": 250.0,
+        "source_url": "https://kayfa.io/search/"
+    },
+    {
+        "track_name": "Security Operations Center (SOC)",
+        "videos": 401,
+        "hours": 44.52,
+        "courses": 9,
+        "price_usd": 250.0,
+        "source_url": "https://kayfa.io/search/"
+    },
+    {
+        "track_name": "Web Development",
+        "videos": 468,
+        "hours": 45.45,
+        "courses": 9,
+        "price_usd": 200.0,
+        "source_url": "https://kayfa.io/search/"
+    },
+    {
+        "track_name": "Data Analysis",
+        "videos": 404,
+        "hours": 38.54,
+        "courses": 8,
+        "price_usd": 180.0,
+        "source_url": "https://kayfa.io/search/"
+    },
+    {
+        "track_name": "Frontend Track",
+        "videos": 313,
+        "hours": 28.12,
+        "courses": 6,
+        "price_usd": 100.0,
+        "source_url": "https://kayfa.io/search/"
+    },
+    {
+        "track_name": "Backend Track",
+        "videos": 244,
+        "hours": 23.34,
+        "courses": 6,
+        "price_usd": 100.0,
+        "source_url": "https://kayfa.io/search/"
+    },
+    {
+        "track_name": "Artificial Intelligence Fundamentals",
+        "videos": 105,
+        "hours": 8.44,
+        "courses": 3,
+        "price_usd": 65.0,
+        "source_url": "https://kayfa.io/search/"
+    },
+    {
+        "track_name": "Fundamentals of Graphics and Motion",
+        "videos": 68,
+        "hours": 6.14,
+        "courses": 2,
+        "price_usd": 65.0,
+        "source_url": "https://kayfa.io/search/"
+    },
+    {
+        "track_name": "Video Editing Track",
+        "videos": 23,
+        "hours": 6.8,
+        "courses": 1,
+        "price_usd": 45.0,
+        "source_url": "https://kayfa.io/search/"
+    },
+    {
+        "track_name": "Crash Courses",
+        "videos": 35,
+        "hours": 2.7,
+        "courses": 3,
+        "price_usd": 25.0,
+        "source_url": "https://kayfa.io/search/"
+    }
+]

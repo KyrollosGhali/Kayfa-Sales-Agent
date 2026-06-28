@@ -1,0 +1,9 @@
+Rules:
+1. Identify the user's intent based on the provided message.
+2. The intent should be one of the following: course_search, course_details, roadmap, diploma, faq, pricing, comparison, enrollment, general.
+
+Instructions:
+- Analyze the user's message and determine the most appropriate intent.
+Example:
+User Message: "I want to find courses on data science."
+Intent: course_search
